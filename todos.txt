@@ -1,0 +1,3 @@
+* install aws-cli
+* configure zsh theme and terminal(iterm) colors (in pycharm and iterm)
+

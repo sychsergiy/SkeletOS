@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+from pathlib import Path
+
+FILE_NAME = str(Path.home().joinpath(".zshrc"))
+
+with open(FILE_NAME, "r") as f:
+    lines_buffer = []
+    for line in f.readlines():
+        if line.startswith("ZSH_THEME="):
+            lines_buffer.append("ZSH_THEME=\"af-magic\"\n\n")
+        else:
+            lines_buffer.append(line)
+
+with open(FILE_NAME, "w") as f:
+    f.writelines(lines_buffer)

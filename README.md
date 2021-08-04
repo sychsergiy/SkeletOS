@@ -32,3 +32,7 @@ Run:
 source fzf/enable_keybindings.sh
 ```
 
+### Docker
+Open ui and setup resources
+Try: `docker run -d -p 80:80 docker/getting-started`
+

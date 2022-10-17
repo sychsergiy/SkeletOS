@@ -15,7 +15,11 @@ brew "pyenv-virtualenv"
 brew "goland"
 brew "golang"
 
+# front end stack
+brew "node"
+
 cask "visual-studio-code"
+
 
 cask "docker"
 cask "docker-compose"

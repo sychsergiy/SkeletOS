@@ -22,7 +22,7 @@ cask "visual-studio-code"
 
 
 cask "docker"
-cask "docker-compose"
+brew "docker-compose"
 
 cask "google-chrome"
 cask "flux"
